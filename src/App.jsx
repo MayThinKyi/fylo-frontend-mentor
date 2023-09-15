@@ -1,4 +1,5 @@
 import Features from "./components/features/Features"
+import Footer from "./components/footer/Footer"
 import Hero from "./components/hero/Hero"
 import Navbar from "./components/navbar/Navbar"
 import Reviews from "./components/reviews/Reviews"
@@ -13,6 +14,7 @@ function App() {
     <Features/>
     <Teams/>
     <Reviews/>
+    <Footer/>
     </>
   )
 }

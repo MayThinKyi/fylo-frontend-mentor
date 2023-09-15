@@ -1,0 +1,51 @@
+@import '../../styles/mixin.scss';
+@import '../../styles/variables.scss';
+.footer{
+    cursor: pointer;
+    background: #0B1523;
+    padding: 50px ;
+    @include display(row,flex-start,justify-between);
+    gap:50px;
+    img{
+        height: 35px;
+    }
+    p{
+        color: $color-gray;
+        font-size: 15px;
+    }
+    ul li {
+        color: $color-gray;
+        font-weight: $font-semibold;
+        margin-bottom: 10px;
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+    .socials{
+        @include display(row,center,flex-start);
+        gap:20px;
+        .icon{
+            border:1px solid $color-white;
+           width: 50px;
+           height: 50px;
+           @include display(row,center,center);
+            border-radius: 100%;
+            &:hover{
+                border:1px solid $color-green;
+                color: $color-green;
+            }
+
+        }
+    }
+}
+@media screen and (max-width:1030px) {
+    .footer{
+        padding:50px 30px;
+        gap:25px;
+    }
+}
+@media screen and (max-width:1030px) {
+    .footer{
+        flex-wrap: wrap;
+    }
+}
