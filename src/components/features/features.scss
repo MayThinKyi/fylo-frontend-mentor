@@ -1,0 +1,46 @@
+@import '../../styles/mixin.scss';
+@import '../../styles/variables.scss';
+.features{
+    padding: 100px 300px;
+    @include grid(auto auto);
+    gap:80px;
+}
+.feature{
+    padding: 0 10px;
+    @include display(column,center,center);
+    img{
+        height: 60px;
+        width: auto;
+        margin-bottom: 15px;
+    }
+    p{
+        text-align: center;
+        margin-top: 10px;
+        color: $color-gray;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width:1030px) {
+    .features{
+        padding: 100px 100px;
+
+    }
+    
+}
+@media screen and (max-width:800px) {
+    .features{
+        padding: 100px 50px;
+    }
+}
+@media screen and (max-width:700px) {
+    .features{
+        padding: 100px 20px;
+        gap:30px;
+    }
+}
+@media screen and (max-width:550px) {
+    .features{
+       grid-template-columns: auto;
+       gap: 60px;
+    }
+}

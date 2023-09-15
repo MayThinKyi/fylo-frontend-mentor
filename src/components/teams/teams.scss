@@ -1,0 +1,45 @@
+@import '../../styles/mixin.scss';
+@import '../../styles/variables.scss';
+.teams{
+    padding: 50px 100px;
+    @include display(row,center,center);
+    gap:50px;
+    img{
+        height: 350px;
+    }
+    p{
+        margin: 15px 0;
+        color: $color-gray;
+    }
+    a{
+        color: $color-green;
+        text-decoration: underline;
+        &:hover{
+            color:$color-white;
+        }
+    }
+}
+@media screen and (max-width:1000px) {
+    .teams{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:900px) {
+    .teams{
+        padding:0 50px ;
+    }
+}
+@media screen and (max-width:600px) {
+    .teams{
+        padding:0 20px ;
+        img{
+            height: 250px;
+        }
+        h1{
+            font-size: 26px;
+        }
+        p{
+            font-size: 15px;
+        }
+    }
+}

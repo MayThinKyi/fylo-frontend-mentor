@@ -1,0 +1,19 @@
+.button {
+  margin-top: 40px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 15px 60px;
+  border-radius: 50px;
+  background: linear-gradient(90deg, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+}
+.button:hover {
+  background: linear-gradient(90deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}
+
+@media screen and (max-width: 420px) {
+  .button {
+    padding: 15px 30px;
+    font-size: 15px;
+  }
+}/*# sourceMappingURL=button.css.map */
