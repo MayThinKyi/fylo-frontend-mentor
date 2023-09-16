@@ -28,7 +28,7 @@ const Features = () => {
     },
     ]
   return (
-    <div className='features'>
+    <div id='features' className='features'>
       {features?.map((item)=>{
         return <div  data-aos="fade-up" data-aos-duration='1000' className='feature' key={item?.id}>
             <img src={item?.img} />

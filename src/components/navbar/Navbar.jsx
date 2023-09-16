@@ -5,9 +5,9 @@ const Navbar = () => {
     <div className='navbar'>
         <img src={logo} />
       <div className='links'>
-      <a href='#'>Features</a>
-      <a href='#'>Teams</a>
-      <a href='#'>Sign in</a>
+      <a href='#features'>Features</a>
+      <a href='#teams'>Teams</a>
+      <a href='#reviews'>Reviews</a>
       </div>
 
     </div>

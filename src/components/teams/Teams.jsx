@@ -2,7 +2,7 @@ import './teams.scss'
 import teams from '../../images/illustration-stay-productive.png'
 const Teams = () => {
   return (
-    <div className='teams'>
+    <div id='teams' className='teams'>
       <img src={teams} data-aos="fade-right" data-aos-duration='1000'  />
       <div data-aos="fade-left" data-aos-duration='1000' >
         <h1>Stay productive, wherever you are</h1>
