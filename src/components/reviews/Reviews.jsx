@@ -33,7 +33,7 @@ const Reviews = () => {
       <img src={quote} />
       <div className='reviews'>
       {reviews?.map((item)=>{
-        return <div key={item?.id} className='review'>
+        return <div key={item?.id} className='review' data-aos="fade-right" data-aos-duration='1000' >
             <p>{item?.comment}</p>
             <div className='reviewBy'>
                 <img src={item?.img} />

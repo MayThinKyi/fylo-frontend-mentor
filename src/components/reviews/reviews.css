@@ -1,4 +1,6 @@
 .reviews-container {
+  height: -moz-max-content;
+  height: max-content;
   padding: 50px 100px;
 }
 .reviews-container img {

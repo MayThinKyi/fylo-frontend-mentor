@@ -1,6 +1,7 @@
 @import '../../styles/mixin.scss';
 @import '../../styles/variables.scss';
 .reviews-container{
+    height: max-content;
     padding:50px 100px;
     img{
         margin-bottom: 20px;
@@ -10,7 +11,7 @@
 .reviews{
     @include grid(auto auto auto);
     gap:80px;
-    
+   
     .review{
         cursor: pointer;
       background: #202A3C;

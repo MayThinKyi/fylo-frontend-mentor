@@ -13,7 +13,7 @@ const Footer = () => {
     icon:<FaTwitter size={22}/>
   }]
   return (
-    <div className='footer'>
+    <div className='footer ' >
       <img src={logo} />
       <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit 
     </p>
